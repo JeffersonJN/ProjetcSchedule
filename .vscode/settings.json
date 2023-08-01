@@ -1,0 +1,94 @@
+{
+  "workbench.startupEditor" : "none" ,
+  "explorer.compactFolders" : false,
+  "workbench.iconTheme" : "material-icon-theme" ,
+  "editor.fontSize" : 18 ,
+  "editor.rulers": [80, 120],
+  "workbench.colorTheme" : "OM Theme (Default Dracula Italic)",
+  "code-runner.executorMap" : {
+      "python" : "cls ; python -u " ,
+  },
+  "code-runner.runInTerminal" : true ,
+  "code-runner.ignoreSelection": true,
+  "editor.fontFamily": 
+  "'Fira Code', Consolas, 'Dank Mono', 'Source Code Pro', 'Fira Code', Menlo, 'Inconsolata', 'Droid Sans Mono', 'DejaVu Sans Mono', 'Ubuntu Mono', 'Courier New', Courier, Monaco, monospace",
+  "terminal.integrated.fontFamily": "monospace",
+  "[python]": {
+      "editor.defaultFormatter": "ms-python.autopep8",
+      "editor.tabSize": 4,
+      "editor.insertSpaces": true,
+      "editor.formatOnSave": true,
+      "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+      "source.fixAll.unusedImports": true,
+      "source.organizeImports": true,
+      "diffEditor.ignoreTrimWhitespace": false,
+      "editor.formatOnType": true,
+      "editor.wordBasedSuggestions": false
+      }
+  },
+  "python.formatting.provider": "none",
+  "python.languageServer": "Pylance",
+  "python.formatting.autopep8Args": [
+    "--indent-size=4",
+    "--max-line-length=80",
+    "--ignore=E111"
+  ],
+  "python.linting.flake8Args": [
+    "--ignore=E111"
+  ],
+ 
+  
+  "python.linting.flake8Enabled": false,
+  "python.linting.mypyEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "python.analysis.diagnosticSeverityOverrides": {
+      "reportUnknownMemberType": "none",
+      "reportUnknownArgumentType": "none",
+      "reportUnknownVariableType": "none",
+      "reportUnknownLambdaType": "none",
+      "reportUnknownParameterType": "none"
+  },
+  "python.defaultInterpreterPath": ".\\venv\\Scripts\\activate",
+  "python.analysis.typeCheckingMode": "off",
+  "cSpell.enabled": true,
+  "cSpellTech.expand": false,
+  "files.associations": {
+    "*.json": "json",
+    "*.html": "django-html"
+  },
+  "emmet.includeLanguages": {
+  "django-html": "html"
+},
+  "files.autoSave": "onFocusChange",
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "terminal.integrated.confirmOnKill": "editor",
+  "html.suggest.html5": true,
+  "[django-html]": {
+    "emmet.showAbbreviationSuggestions": false,
+
+    "editor.suggest.insertMode": "replace",
+    "workbench.editor.languageDetection": true,
+
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": true,
+      "strings": true
+    }
+  },
+  "[html]": {
+
+    "editor.wordBasedSuggestions": true,
+  "workbench.editor.languageDetection": true,
+    "editor.suggest.insertMode": "insert",
+    "editor.formatOnType": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.language.brackets": [
+  
+  ]
+}

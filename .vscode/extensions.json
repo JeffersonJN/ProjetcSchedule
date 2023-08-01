@@ -1,0 +1,21 @@
+{
+    "recommendations": [
+        "ms-python.autopep8",
+        "remimarche.cspell-tech",
+        "dracula-theme.theme-dracula",
+        "grapecity.gc-excelviewer",
+        "ms-python.flake8",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.vscode-jupyter-cell-tags",
+        "ms-toolsai.jupyter-renderers",
+        "ms-toolsai.vscode-jupyter-slideshow",
+        "pkief.material-icon-theme",
+        "omthemes.omthemes",
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "tonka3000.qtvsctools",
+        "tomoki1207.pdf",
+        "formulahendry.code-runner",
+        "batisteo.vscode-django"
+    ]
+}
