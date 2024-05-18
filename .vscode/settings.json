@@ -19,12 +19,12 @@
       "editor.insertSpaces": true,
       "editor.formatOnSave": true,
       "editor.codeActionsOnSave": {
-      "source.fixAll": true,
-      "source.fixAll.unusedImports": true,
-      "source.organizeImports": true,
-      "diffEditor.ignoreTrimWhitespace": false,
-      "editor.formatOnType": true,
-      "editor.wordBasedSuggestions": false
+        "source.fixAll": "explicit",
+        "source.fixAll.unusedImports": "explicit",
+        "source.organizeImports": "explicit",
+        "diffEditor.ignoreTrimWhitespace": "never",
+        "editor.formatOnType": "explicit",
+        "editor.wordBasedSuggestions": "never"
       }
   },
     "python.testing.unittestEnabled": false,
@@ -63,7 +63,7 @@
     }
   },
   "[html]": {
-    "editor.wordBasedSuggestions": true,
+    "editor.wordBasedSuggestions": "matchingDocuments",
     "workbench.editor.languageDetection": true,
     "editor.suggest.insertMode": "insert",
     "editor.formatOnType": true

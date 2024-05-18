@@ -1,5 +1,8 @@
 # # # comandos django
 
+# senha ubunto MKAqsD/3
+
+
 # python manage.py runserver
 # django-admin startproject project .
 # django-admin --help
