@@ -2,6 +2,9 @@
 
 ## Primeiros passos
 
+ ssh vboxuser@192.168.0.108
+
+
 - Prepare o local_settings.py
 - Crie o seu servidor Ubuntu 20.04 LTS (onde preferir)
 
@@ -139,7 +142,8 @@ cd /etc/nginx/sites-enabled/
 sudo rm -f default apagar arquivos
 
 ## Permitir arquivos maiores no nginx
-
+sudo nano agenda
+cd  /etc/nginx/sites-enabled/
 ```
 sudo nano /etc/nginx/nginx.conf
 ```
